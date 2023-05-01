@@ -1,4 +1,4 @@
-<div style="margin-bottom:16px;"> 
+<div class="border-bottom" style="margin-bottom:16px;padding-bottom:1px;"> 
   <h4 
     style="color: rgb(120,120,120); margin-bottom: 4px;"> 
     {{job ['title']}}
@@ -6,9 +6,9 @@
   <div> 
     <b>Location:</b> {{job ['location']}}
   </div
-    {% if 'Salary' in job%}
+    {% if 'Salary' in job %}
   <div> 
     <b>Salary:</b> {{job ['Salary']}}
   </div  
-  {%endif%}
+  {% endif %}
 </div>
